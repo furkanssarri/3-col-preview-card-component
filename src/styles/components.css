@@ -1,0 +1,107 @@
+@layer components {
+  .container {
+    max-width: 75rem;
+    color: var(--transparent-white);
+    display: flex;
+    flex-direction: row;
+
+    & article {
+      max-width: 19.125rem;
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 2rem;
+      font-size: var(--fw-400);
+      cursor: pointer;
+      transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+        box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.06);
+
+      & h2 {
+        margin-top: 1rem;
+        font-family: "Big Shoulders Display", system-ui, sans-serif;
+        font-size: var(--fs-28);
+        text-transform: uppercase;
+      }
+      & a {
+        padding: 0.5rem 1rem;
+        border-radius: 1.5625rem;
+        border-color: transparent;
+        cursor: pointer;
+        transition: transform 0.3s ease-in-out;
+        border: 1px solid transparent;
+        background-color: #fff;
+        font-size: 0.8rem;
+        max-width: fit-content;
+
+        &:hover {
+          background-color: transparent;
+          border-color: #fff;
+          color: var(--transparent-white);
+        }
+      }
+
+      &:hover {
+        transform: scale(1.04);
+        z-index: 1;
+        box-shadow: 0 6px 24px 0 rgba(0, 0, 0, 0.12);
+      }
+    }
+  }
+
+  article:first-of-type {
+    background-color: var(--clr-gold);
+    border-radius: 0.3125rem 0 0 0.3125rem;
+
+    & .card-button {
+      color: var(--clr-gold);
+    }
+  }
+  article:nth-of-type(2) {
+    background-color: var(--clr-cyan);
+
+    & .card-button {
+      color: var(--clr-cyan);
+    }
+  }
+  article:last-of-type {
+    background-color: var(--clr-green);
+    border-radius: 0 0.3125rem 0.3125rem 0;
+
+    & .card-button {
+      color: var(--clr-green);
+    }
+  }
+
+  .attribution {
+    font-size: 0.6875rem;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .container {
+    padding: 0.5rem;
+    flex-direction: column;
+
+    & article {
+      padding: 2.5rem;
+
+      & h2 {
+        margin-top: 1rem;
+      }
+
+      & p {
+        margin: 1.5rem 0;
+      }
+
+      & a {
+        margin: 1rem 0;
+      }
+    }
+  }
+}
