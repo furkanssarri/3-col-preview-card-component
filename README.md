@@ -28,7 +28,11 @@ A responsive card component built with React and CSS, featuring three columns fo
 ## Getting Started
 
 1. Clone the repository
-2. `bash npm install`
+2. ```bash
+   npm install
+
+   ```
+
 3. Run with your preferred development server
 
 ## Credits
@@ -38,3 +42,7 @@ A responsive card component built with React and CSS, featuring three columns fo
 ---
 
 Feel free to use this project as a portfolio piece or reference for similar card layouts!
+
+```
+
+```
