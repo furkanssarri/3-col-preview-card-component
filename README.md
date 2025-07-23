@@ -42,7 +42,3 @@ A responsive card component built with React and CSS, featuring three columns fo
 ---
 
 Feel free to use this project as a portfolio piece or reference for similar card layouts!
-
-```
-
-```
