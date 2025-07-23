@@ -2,7 +2,7 @@
 
 This is a solution to the [Frontend Mentor](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-) **3-column preview card component** challenge.
 
-![Design preview](preview.png)
+![Design preview](preview-img.png)
 
 ## Demo
 
