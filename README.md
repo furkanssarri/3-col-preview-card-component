@@ -6,7 +6,7 @@ This is a solution to the [Frontend Mentor](https://www.frontendmentor.io/challe
 
 ## Demo
 
-You can find a working [demo](https://furkanssarri-3-col-card.netlify.app/) here.
+You can find the working [demo](https://furkanssarri-3-col-card.netlify.app/) here.
 
 ## Overview
 
