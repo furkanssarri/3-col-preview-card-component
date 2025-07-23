@@ -6,7 +6,7 @@ const Card = () => {
       {data &&
         data.map((car) => (
           <article key={car.id}>
-            <img src={car.image} alt={car.title} width={80} />
+	<img src={car.image} alt={car.title} width={80} />
             <h2>{car.title}</h2>
             <p>{car.description}</p>
 
