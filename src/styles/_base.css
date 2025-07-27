@@ -122,14 +122,14 @@
     }
   }
 
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: 532px) {
     body {
       justify-content: flex-start;
       scale: 1;
     }
 
     main {
-      margin: 1rem;
+      margin: 0;
     }
   }
 

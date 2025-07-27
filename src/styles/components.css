@@ -99,13 +99,14 @@ footer {
   font-size: 1.2rem;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 530px) {
   .container {
     padding: 0.5rem;
     flex-direction: column;
 
     & article {
       padding: 2.5rem;
+      border-radius: 0;
 
       & h2 {
         margin-top: 1rem;
