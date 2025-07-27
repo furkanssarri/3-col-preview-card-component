@@ -122,7 +122,7 @@
     }
   }
 
-  @media screen and (max-width: 532px) {
+  @media screen and (max-width: 530px) {
     body {
       justify-content: flex-start;
       scale: 1;
